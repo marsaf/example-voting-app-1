@@ -1,6 +1,5 @@
 # NOTES
 # You will need 4 concurrent pipelines to allow this to run as fast as possible
-# Please generate an API Key Codefresh CLI https://g.codefresh.io/account/tokens and store in API_KEY variable
 # You need to configure Docker Registry access in Codefresh and set push build step for (3) micro-services to push to that registry by friendly name
 # You need to configure Kubernetes with a Pull Secret for the Registry and update variable KUBE_PULL_SECRET with the name you gave the secret
 # Pull Secrets explained: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
